@@ -1,0 +1,25 @@
+{
+  "name": "elastic-beanstalk-tutorial",
+  "version": "1.0.0",
+  "description": "Example application using Docker to deploy with Elastic Beanstalk",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sommercodes/elastic-beanstalk-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sommercodes/elastic-beanstalk-tutorial/issues"
+  },
+  "homepage": "https://github.com/sommercodes/elastic-beanstalk-tutorial#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "morgan": "^1.8.2"
+  }
+}
