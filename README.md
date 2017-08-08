@@ -18,6 +18,6 @@ These two blog posts make use of this sample application:
 * Use the command `docker ps` to make sure your container is running
 
 * If you are on mac or linux, navigate to http://localhost:8080 in your browser to view your running app.
-* If you are on windows, navigate to http://<port docker runs on>:8080 in your browser to view your running app.
+* If you are on windows, navigate to http://\<**port docker runs on**\>:8080 in your browser to view your running app.
 
 
