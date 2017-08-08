@@ -12,14 +12,14 @@ after_deploy:
   - echo "done deploying"
 
 
-# deploy:
-#   provider: elasticbeanstalk
-#   access_key_id: $ACCESSKEYID
-#   secret_access_key:
-#     secure: "$SECRETACCESSKEY"
-#   region: "ca-central-1"  
-#   app: "instant-chat-server"
-#   env: "instant-chat-server"
-#   bucket_name: "elasticbeanstalk-ca-central-1-882371129764"
-#   on:
-#     branch: master
+deploy:
+  provider: elasticbeanstalk
+  access_key_id: $ACCESSKEYID
+  secret_access_key:
+    secure: "$SECRETACCESSKEY"
+  region: "ca-central-1"  
+  app: "elastic-beanstalk-tutorial"
+  env: "elastic-beanstalk-tutorial-dev"
+  bucket_name: "elasticbeanstalk-ca-central-1-882371129764"
+  on:
+    branch: master
