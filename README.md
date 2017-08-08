@@ -4,6 +4,8 @@ These two blog posts make use of this sample application:
   * [Deploying a Docker Container with AWS Elastic Beanstalk](https://medium.com/@sommershurbaji/deploying-a-docker-container-to-aws-with-elastic-beanstalk-28adfd6e7e95)
   * [Continuous Delivery with AWS Elastic Beanstalk](https://medium.com/@sommershurbaji/continuous-delivery-with-aws-elastic-beanstalk-and-travis-ci-2dd54754965f)
 
+### Build Status: [![Build Status](https://travis-ci.org/sommercodes/elastic-beanstalk-tutorial.svg?branch=master)](https://travis-ci.org/sommercodes/elastic-beanstalk-tutorial)
+
 # Set Up Instructions
 
 * clone:
