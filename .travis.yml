@@ -1,0 +1,25 @@
+language: node_js
+
+node_js:
+  - "8"
+
+sudo: required
+
+services:
+  - docker
+
+after_deploy:
+  - echo "done deploying"
+
+
+# deploy:
+#   provider: elasticbeanstalk
+#   access_key_id: $ACCESSKEYID
+#   secret_access_key:
+#     secure: "$SECRETACCESSKEY"
+#   region: "ca-central-1"  
+#   app: "instant-chat-server"
+#   env: "instant-chat-server"
+#   bucket_name: "elasticbeanstalk-ca-central-1-882371129764"
+#   on:
+#     branch: master
